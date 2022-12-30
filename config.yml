@@ -1,0 +1,48 @@
+baseURL: ""
+languageCode: en-us
+title: Hugo Demo
+theme: PaperMod
+
+params:
+  homeInfoParams:
+    Title: "Hello Stranger"
+    Content: I am Adithya. This is a page where I share my thoughts, poems and articles to the world. I like mobile photography as well. Hope you like my content!
+  socialIcons:
+    - name: facebook
+      url: 'http://facebook.com'
+    - name: github
+      url: 'https://github.com'
+    - name: twitter
+      url: 'https://twitter.com'
+
+
+  cover: 
+    linkFullImages: true # click on an image and it shows in a separate page
+
+  ShowBreadCrumbs: true # shows the path of the page
+
+  ShowReadingTime: true # shows reading time on top of the page
+  ShowShareButtons: true # social media buttons to share the post
+  ShowPostNavLinks: true # a button appears to read the next article
+menu:
+  main:
+    - identifier: about
+      name: About
+      url: /about/
+      weight: 10
+    - identifier: resume
+      name: Resume
+      url: /resume/
+      weight: 20
+    - identifier: contact
+      name: Contact
+      url: /contact/
+      weight: 30
+    - identifier: archives
+      name: Archives
+      url: /archives/
+      weight: 40
+    - identifier: categories
+      name: Categories
+      url: /categories/
+      weight: 50
